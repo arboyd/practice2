@@ -16,14 +16,17 @@ function secs2years ($secs) {
 
 function helloChrononaut ($year) {
     
-    if ($year > 2020){
+    if (($year > 2020) && (is_numeric($year))) {
         return "I hope your visit is double plus good.";
     }
-    else if ($year < 1900) {
+    else if (($year < 1900) && (is_numeric($year))) {
         return "I like your loincloth/toga/jerkin/pantaloons/frock/morning coat.";
     }
-    else if ($year != NULL) {
+    else if (is_numeric($year)) {
         return "Can I get you a sandwich?";
+    }
+    else {
+        return "I do not understand your jibberish."; 
     }
 }
 
