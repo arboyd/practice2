@@ -168,9 +168,9 @@ $d = array(10000000000, 5, 87, 7.5, 35);
 ?>
 <ul>
     <li>[0, 1, 2, 3, 4, 5] = <?php echo average($a);?></li>
-    <li>[0, 1, 2, 3, 4, 5] = <?php echo average($b);?></li>
-    <li>[0, 1, 2, 3, 4, 5] = <?php echo average($c);?></li>
-    <li>[0, 1, 2, 3, 4, 5] = <?php echo average($d);?></li>
+    <li>[10, 10] = <?php echo average($b);?></li>
+    <li>[1] = <?php echo average($c);?></li>
+    <li>[10000000000, 5, 87, 7.5, 35] = <?php echo average($d);?></li>
 </ul>
 
 <h1>HOW WILL I EVER FIND THE SMALLER OF TWO NUBMERS?!</h1>
